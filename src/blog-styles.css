@@ -13,11 +13,11 @@ main{
     width: 60%;
     margin: 5% auto;
     background: black;
+    text-align: center
 }
 
 article{
     margin: 5% auto;
     border: 2px solid grey;
     width: 60%;
-    background: black;
 }
