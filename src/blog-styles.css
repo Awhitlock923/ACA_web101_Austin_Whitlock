@@ -1,0 +1,23 @@
+h1{
+    width: 60%;
+    margin: 5% auto;
+}
+
+/*
+body{
+
+}
+*/
+
+main{
+    width: 60%;
+    margin: 5% auto;
+    background: black;
+}
+
+article{
+    margin: 1% auto;
+    border: 2px solid grey;
+    width: 60%;
+    background: white;
+}
