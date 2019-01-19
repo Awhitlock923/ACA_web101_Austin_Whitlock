@@ -3,11 +3,10 @@ h1{
     margin: 5% auto;
 }
 
-/*
-body{
 
+body{
+    background: black;
 }
-*/
 
 main{
     width: 60%;
@@ -16,7 +15,7 @@ main{
 }
 
 article{
-    margin: 1% auto;
+    margin: 5% auto;
     border: 2px solid grey;
     width: 60%;
     background: white;
