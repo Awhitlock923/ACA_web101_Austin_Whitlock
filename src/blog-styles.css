@@ -26,3 +26,7 @@ article{
 article > h3{
     font-size: 1em;
 }
+
+article:hover{
+    background: grey;
+}
