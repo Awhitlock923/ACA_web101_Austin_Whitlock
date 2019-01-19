@@ -6,7 +6,7 @@ h1{
 
 
 body{
-    background: green;
+    background-image: url(http://bgfons.com/uploads/lines/lines_texture1086.jpg);
     background-size: 100% 100%
 }
 
@@ -14,17 +14,19 @@ body{
 main{
     width: 50%;
     margin: 5% auto;
-    background: white;
+    background: transparent;
 }
 
 article{
     margin: 5% auto;
     border: 2px solid grey;
-    width: 60%;
+    width: 80%;
+    color: white;
+    background: navy;
 }
 
 article > h3{
-    font-size: 1em;
+    font-size: 2em;
 }
 
 article:hover{
