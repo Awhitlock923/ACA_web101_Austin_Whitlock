@@ -12,7 +12,7 @@ body{
 main{
     width: 60%;
     margin: 5% auto;
-    background: black;
+    background: grey;
     text-align: center
 }
 
@@ -20,4 +20,8 @@ article{
     margin: 5% auto;
     border: 2px solid grey;
     width: 60%;
+}
+
+article > h3{
+    font-size: 1em;
 }
