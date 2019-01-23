@@ -7,12 +7,17 @@ h1{
 
 body{
     background-image: url(http://1.bp.blogspot.com/-D6rz9FTKFQo/Tbk7gIUR_rI/AAAAAAAAAEw/j_f0I3ECG_c/s1600/Ab_blue_matrix.jpg);
-    background-size: 100% 100%
+    background-size: 100% 100%;
 }
 
 
 main{
+    display: grid;
     width: 50%;
     margin: 5% auto;
     background: transparent;
+}
+
+h2{
+    
 }
