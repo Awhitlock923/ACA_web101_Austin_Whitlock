@@ -1,25 +1,10 @@
-body{
-    display:grid;
-    grid-template-columns: 40% 60%;
-    width: 100%;
+article{
+    display: grid;
+    grid-template-columns: 50% 50%;
 }
 
 main{
-    display:grid;
-    grid-template-columns: 50% 50%;
-    width: 100%;
-    margin: 5% auto;
-    background: transparent;
-}
-
-article{
-    margin: 5% auto;
-    border: 2px solid grey;
-    width: 80%;
-    color: white;
-    background: navy;
-}
-
-article > h3{
-    font-size: 2em;
+    display: grid;
+    grid-template-areas: 50% 50%;
+    color: black;
 }
