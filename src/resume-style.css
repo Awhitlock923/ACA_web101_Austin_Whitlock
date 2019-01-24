@@ -1,17 +1,24 @@
 article{
     display: grid;
     grid-template-columns: 50% 100%;
-    margin: solid blueviolet;
-    border-bottom: 2px solid blueviolet;
+    margin: solid rgb(155, 103, 204);;
+    border-bottom: 2px solid rgb(155, 103, 204);;
+    color: white;
 }
 
 a{
     font-size: 50px;
-    color: blueviolet;
+    color: rgb(155, 103, 204);;
 }
 
 b{
     font-size: 20px;
+}
+
+body{
+    background: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ), url(https://i.imgur.com/VemYNvw.png);
+    background-size: 100% 100%;
+    
 }
 
 .column {
@@ -30,5 +37,10 @@ b{
 
 div > h1{
     font-size: 20px;
-    color: blueviolet;
+    color: rgb(155, 103, 204);
+}
+
+div{
+    color: whitesmoke;
+    font-display: bold;
 }
