@@ -1,34 +1,32 @@
-h1{
-    width: 60%;
-    margin: 5% auto;
-    color: white;
+h1 {
+  width: 60%;
+  margin: 5% auto;
+  color: white;
 }
 
-
-body{
-    background-image: url(http://bgfons.com/uploads/lines/lines_texture1086.jpg);
-    background-size: 100% 100%
+body {
+  background-image: url(http://bgfons.com/uploads/lines/lines_texture1086.jpg);
+  background-size: 100% 100%;
 }
 
-
-main{
-    width: 50%;
-    margin: 5% auto;
-    background: transparent;
+main {
+  width: 50%;
+  margin: 5% auto;
+  background: transparent;
 }
 
-article{
-    margin: 5% auto;
-    border: 2px solid grey;
-    width: 80%;
-    color: white;
-    background: navy;
+article {
+  margin: 5% auto;
+  border: 2px solid grey;
+  width: 80%;
+  color: white;
+  background: navy;
 }
 
-article > h3{
-    font-size: 2em;
+article > h3 {
+  font-size: 2em;
 }
 
-article:hover{
-    background: grey;
+article:hover {
+  background: grey;
 }
