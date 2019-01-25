@@ -32,6 +32,15 @@ article:hover {
 }
 
 @media only screen and (max-width : 860px){
+  
+  main{
+    width: 80%;
+  }
+  
+}
+
+
+@media only screen and (max-width : 860px){
 
   main{
     width: 80%;
