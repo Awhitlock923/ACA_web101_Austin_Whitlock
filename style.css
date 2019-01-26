@@ -108,6 +108,10 @@ body {
       width: 200px;
       height: 200px;
     }
+
+    body{
+      background-size: 100% 120%
+    }
     
   }
   
