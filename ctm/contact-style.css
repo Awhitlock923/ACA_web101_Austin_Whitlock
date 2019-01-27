@@ -10,6 +10,9 @@ body{
     background-size: 100% 100%;
 }
 
+.column{
+    float: center;
+}
 
 main{
     display: grid;
