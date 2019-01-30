@@ -23,3 +23,9 @@ function date_time(id)
         return true;
 }
 window.onload = date_time('s');
+
+function blinker() {
+    $('.blink-me').fadeOut(200);
+    $('.blink-me').fadeIn(200);
+}
+setInterval(blinker, 500);
