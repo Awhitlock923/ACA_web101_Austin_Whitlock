@@ -29,3 +29,4 @@ function blinker() {
     $('.blink-me').fadeIn(200);
 }
 setInterval(blinker, 500);
+
