@@ -477,4 +477,9 @@ figure:hover{
 	.footer {
 		order: 4;
 	}
+  
+  figure{
+    top: 150%;
+    left: 50%;
+  }
 }
