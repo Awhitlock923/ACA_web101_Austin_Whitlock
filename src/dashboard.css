@@ -123,7 +123,6 @@ body {
 	grid-template-areas:
 		"header 		header 	header 	header"
 		"sidebar 	sidebar 		main 		main"
-    "body       body    body    body"
 		"footer 		footer 	footer	footer";
 	max-width: 640px;
 	width: 100%;
@@ -145,10 +144,6 @@ body {
 	grid-area: main;
 	padding: 16px;
  
-  box-sizing: border-box;
-  font-family: 'Roboto', sans-serif;
-
-   
   box-sizing: border-box;
   font-family: 'Roboto', sans-serif;
 } 
@@ -378,8 +373,8 @@ figure{
     width:210px;
     height:210px;
     position: absolute;
-    top:50%;
-    left:62%;
+    top:175%;
+    left:52%;
     margin-top:-105px;
     margin-left:-105px;
     transform-style: preserve-3d;
@@ -447,18 +442,35 @@ figure:hover{
 
 
 @media (max-width: 575px) {
-	.wrapper {
-		display: flex;
-		flex-direction: column;
-	}
+
+  
+  .wrapper {
+	height: 100vh;
+	display: grid;
+	grid-template-columns: 160px 160px 160px 160px;
+  	grid-template-rows: auto 1fr auto;
+	grid-template-areas:
+		"header 		header 	header 	header"
+		"sidebar 	sidebar 	sidebar sidebar"
+    "main     main    		main 		main"
+		"footer 		footer 	footer	footer";
+	max-width: 640px;
+	width: 100%;
+	margin-left: auto;
+	margin-right: auto;
+	border: 1px solid #ccc;
+}
+  
 	.header {
 		order: 1;
 	}
 	.main {
 		order: 2;
+    margin-top: 500px;
 	}
 	.aside {
 		order: 3;
+    margin-bottom: 100px;
 		border-right: 0;
 		border-top: 1px solid #ccc;
 	}
