@@ -128,7 +128,7 @@ body {
 	width: 100%;
 	margin-left: auto;
 	margin-right: auto;
-	border: 1px solid #ccc;
+	border: 1px;
 }
 
 .header {
@@ -458,7 +458,7 @@ figure:hover{
 	width: 100%;
 	margin-left: auto;
 	margin-right: auto;
-	border: 1px solid #ccc;
+	border: 1px;
 }
   
 	.header {
