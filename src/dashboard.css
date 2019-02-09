@@ -346,7 +346,6 @@ ul li.editMode label {
 .aside {
 	grid-area: sidebar;
 	padding: 16px;
-	background-color: #eee;
 	border-right: 1px solid #ccc;
 }
 
