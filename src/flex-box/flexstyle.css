@@ -1,0 +1,12 @@
+div{
+    border: 1px solid black;
+    padding: 5px;
+    margin: 20px;
+    
+}
+
+.container{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
