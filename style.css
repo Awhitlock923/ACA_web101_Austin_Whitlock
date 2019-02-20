@@ -5,8 +5,18 @@ body, html {
     line-height: 1.8;
 }
 
+#logo{
+  width: 45px;
+  height: 45px;
+  
+}
+
 #button{
-  color: #777
+  color: #777;
+  background-color: rgb(29, 29, 29);
+  border-top: transparent;
+  border-right: transparent;
+  border-left: transparent;
 }
 
 #profile {
@@ -16,6 +26,7 @@ body, html {
     margin: 7% auto;
     grid-column: 2/3;
 }
+
 /*Navbar Styles*/
 .w3-navbar { color: #fff; }
 .w3-navbar.w3-animate-top { color: #444; }
