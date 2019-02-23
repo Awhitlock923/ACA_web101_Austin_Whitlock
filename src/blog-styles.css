@@ -15,22 +15,46 @@ main {
   background: transparent;
 }
 
-article {
-  margin: 10% auto;
-  padding: 7px;
-  border: 3px solid grey;
-  width: 80%;
-  color: white;
-  background: navy;
+.embedly-card{
+  height: 200px;
+  background-color: white;
+  margin-bottom: 100px;
+  margin-top: 100px;
+  transition: 2s;
 }
 
-article > h3 {
-  font-size: 2em;
+.embd-facebook{
+  display: none !important;
 }
 
-article:hover {
-  background: grey;
+.embd-twitter{
+  display: none !important;
 }
+
+.embd-pinterest{
+  display: none !important;
+}
+
+.embd-linkedin{
+  display: none !important;
+}
+
+.embd-card{
+  display: none !important;
+}
+
+.embedly-card:hover {
+  background: lightgray;
+  -webkit-transform: scale(1.25);
+  -moz-transform: scale(1.25);
+  -o-transform: scale(1.25);
+  -ms-transform: scale(1.25);
+  transform: scale(1.25);
+  margin-bottom: 150px;
+  margin-top: 150px;
+  transition: 2s;
+}
+
 
 @media only screen and (max-width : 860px){
   
