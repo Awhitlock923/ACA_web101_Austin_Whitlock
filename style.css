@@ -45,10 +45,14 @@ body, html {
 .w3-center1{white-space: nowrap;}
 .w3-half{display: inline;}
 .w3-col.s12, .w3-half, .w3-third, .w3-twothird, .w3-threequarter, .w3-quarter {
-    width: 99.99999%;
-    padding-left: 40px;
-    display: grid;
-    grid-template-columns: 20% 20% 20% 30%
+  width: 99.99999%;
+  padding-left: 40px;
+  display: grid;
+  grid-template-columns: 20% 20% 20% 30%
+}
+.w3-xxlarge, .w3-text-black, .w3-wide{
+  font: bold;
+  font-size: 25px;
 }
 
 /* Create a Parallax Effect */
