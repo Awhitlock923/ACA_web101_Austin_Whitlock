@@ -54,6 +54,9 @@ body, html {
   font: bold;
   font-size: 25px;
 }
+.float-right{
+  float: right;
+}
 
 /* Create a Parallax Effect */
 .bgimg-1, .bgimg-2, .bgimg-3 {
@@ -102,7 +105,7 @@ footer > .w3-center{
 
 @media only screen and (max-width : 600px){
   .w3-hide-small {
-    display: inline!important;
+    display: flex!important;
     text-align: left;
   }
 
