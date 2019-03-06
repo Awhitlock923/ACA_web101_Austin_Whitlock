@@ -2,6 +2,23 @@
 	box-sizing: border-box;
 }
 
+#button7{
+  font-size: 30px;
+  white-space: nowrap;
+  /* border: solid black; */
+}
+
+#div3{
+  padding-left: 250px;
+  padding-top: 100px;
+  /* padding-bottom: 100px; */
+}
+
+#my-coordinates{
+  color:black!important;
+  padding-bottom: 100px;
+}
+
 html {
 	font-size: 18px;
 	font-family: Avenir;
@@ -179,7 +196,7 @@ button {
   margin: 10px 0 0;
   font-family: Lato, sans-serif;
   cursor: pointer;
-}
+} 
 button:hover {
   color: #333;
 }
@@ -482,3 +499,4 @@ figure:hover{
     left: 50%;
   }
 }
+

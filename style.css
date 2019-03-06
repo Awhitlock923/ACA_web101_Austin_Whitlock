@@ -115,7 +115,10 @@ footer > .w3-center{
     padding-top: 0px;
   }
 
-  
+  .w3-white, .w3-hover-white:hover {
+    color: #000!important;
+    background-color: transparent!important;
+}
   
 }
 
