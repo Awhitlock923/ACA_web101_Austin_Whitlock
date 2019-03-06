@@ -30,3 +30,16 @@ function blinker() {
 }
 setInterval(blinker, 500);
 
+var myLocation = document.getElementById("my-coordinates")
+
+function getLocation() {
+  if(navigator.geolocation){
+    navigator.geolocation.getCurrentPosition(displayPosition)
+  } else {
+   myLocation.innerHTML = "Not available"
+  }
+}
+
+function displayPosition(position) {
+  myLocation.innerHTML = "Latitude: " + position.coords.latitude + " Longitude: " + position.coords.longitude
+}
